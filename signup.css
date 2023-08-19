@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.maindiv{
+    margin-top: 8%;
+    margin-left: 18%; 
+}
+
+
+.h1{
+    padding-left: 29.8%;
+}
+
+.d-flex{
+    margin-top: 45px;
+}
+
+
+#firstName,
+#lastName,
+#email,
+#inputPassword{
+    padding-left: 6px;
+    width: 45%;
+    margin-bottom: 10px;
+    border-color: black;
+    border-width: 1px;
+    border-radius: 5px;
+}
+
+
+.form-control{
+    width: 65%;
+}
+
+
+#signup{
+    margin-right: 32%;
+}
+
+
+.mb-3{
+    padding-left: 90px;
+}

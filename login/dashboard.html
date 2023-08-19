@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Your Dashboard</h1>
+        <p>Hello, <span id="user-full-name"></span>!</p>
+        <button id="profile-button">Profile</button>
+        <button id="logout-button">Logout</button>
+    </header>
+
+    <section>
+        <h2>Create a New Blog Post</h2>
+        <form id="new-blog-form">
+            <label for="blog-title">Blog Title (5-50 characters):</label>
+            <input type="text" id="blog-title" name="blog-title" required minlength="5" maxlength="50"><br>
+
+            <label for="blog-body">Blog Body (100-3000 characters):</label>
+            <textarea id="blog-body" name="blog-body" rows="10" required minlength="100" maxlength="3000"></textarea><br>
+
+            <button type="submit">Post Blog</button>
+        </form>
+    </section>
+
+    <section>
+        <h2>Your Blog Posts</h2>
+        <ul id="blog-list"></ul>
+    </section>
+
+    <script type="module" src="dashboard.js"></script>
+</body>
+</html>
